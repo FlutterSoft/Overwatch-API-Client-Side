@@ -1,0 +1,93 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+:root{
+     --blue: rgb(48, 69, 103);
+     --lightblue: rgb(0, 195, 255);
+     --darkblue: rgb(44, 64, 97);
+     --white: rgb(246, 246, 246);
+     --grey: rgb(180, 186, 200);
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* STYLE
+/*******************************************/
+html {
+     scroll-behavior: smooth;
+     font-size: 62.5%;
+     background-color: var(--blue);
+}
+
+h1,h2,h3,h4,h5,h6{
+     font-family: 'BigNoodleTitling', sans-serif;
+}
+
+h1 {
+     color: var(--white);
+}
+h4 {
+     color: var(--lightblue);
+     font-size: 2.5rem;
+}
+
+body {
+     display: grid;
+     place-content: center;
+     place-items: center;
+}
+main {
+     padding: 20px;
+     font-size: 2rem;
+     background-color: var(--darkblue);
+     width: 600px;
+     height: 800px;
+     text-align: center;
+}
+
+button{
+     background-color: var(--blue);
+     border: 1px solid var(--lightblue);
+     color: var(--white);
+     display: block;
+     margin: 15px auto;
+     width: 15rem;
+     padding: 2%;
+     cursor: pointer;
+}
+
+button:hover{
+     opacity: 80%;
+}
+
+button:active{
+     transform: scale(98%)
+}
+
+input{
+     background-color: var(--white);
+     color: var(--darkblue);
+     border: 1px solid var(--white);
+     width: 15rem;
+}
+
+
+span {
+     color: var(--white);
+     margin-left: 1rem;
+}
