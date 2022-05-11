@@ -1,5 +1,5 @@
 # Overwatch Hero Search
-Node.JS/Express API connected - Search for a hero and receive the hero details back from the API I created and hosted. 
+Node.JS/Express CRUD API connected - Search for a hero and receive the hero details back from the API I created and hosted. 
 
 **Link to project:** https://overwatch-hero-search.netlify.app/
 
@@ -17,7 +17,7 @@ Very little CSS work done, probably doesn't look great on mobile.
 
 ## Lessons Learned:
 
-Learning how to create and use Node.JS/Express API's 
+Learning how to create and use Node.JS/Express CRUD API's 
 
 ## Examples:
 Take a look at these other examples that I have in my portfolio:
